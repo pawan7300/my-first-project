@@ -1,0 +1,15 @@
+p{
+    color: red;
+   
+    font-family: "gill Sans","Gill Sans MT", Cambria, "Trebuchet MS", sans-serif;
+    font-size: medium; 
+    font-style: italic;
+    font-weight: 900;
+
+    text-align: justify;
+   
+    text-shadow:0 0  5px black ;
+}
+.custom{
+    color:blue;
+}
