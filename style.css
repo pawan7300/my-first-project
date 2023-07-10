@@ -1,15 +1,35 @@
-p{
-    color: red;
-   
-    font-family: "gill Sans","Gill Sans MT", Cambria, "Trebuchet MS", sans-serif;
-    font-size: medium; 
-    font-style: italic;
-    font-weight: 900;
+*  {
+    padding: 0;
+    margin: 0;
+}
 
-    text-align: justify;
-   
-    text-shadow:0 0  5px black ;
+header{
+    color: 2px solid red;
+    box-sizing: border-box;
+    padding: 50px;
+    background-color:crimson;
 }
-.custom{
-    color:blue;
-}
+ header>a{
+    color: white;
+    text-decoration: dashed;
+    margin: #1d1d1d;
+    text-align:center;
+    padding: 50px;
+ }
+ section {
+    border: 2px solid black;
+    height: 400px;
+    width: 1000px;
+    margin: auto;
+    background-image: linear-gradient(to bottom, crimson, rgb(216, 196, 200));
+ }
+ footer{
+    height: 100px;
+    width: 1000px;
+    margin: auto;
+    background-color: #1d1d1d;
+ } 
+ footer>a{ 
+    color: white;
+text-decoration: none;
+ }
